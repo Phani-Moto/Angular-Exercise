@@ -1,0 +1,25 @@
+.comments .card{
+    height: 150px;
+    -webkit-box-shadow: 0 21px 35px 0 rgba(0,0,0,.2);
+    box-shadow: 0 21px 35px 0 rgba(0,0,0,.2);
+    border: 1px solid #e6eaeb; 
+}
+
+.comments .card-body{
+    padding-bottom: 10px;
+}
+
+.comments p{
+    margin-bottom: 0;
+    width: 100%;
+}
+.comments p span{
+    font-size: 14px;
+}
+.comments p span:first-child{
+    float: left;
+}
+
+.comments p span:last-child{
+    float: right;
+}

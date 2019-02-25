@@ -1,0 +1,26 @@
+  <table class="table table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">User Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Address</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Website</th>
+        <th scope="col">Company</th>
+      </tr>
+    </thead>
+    <tbody *ngIf="usersData">
+      <tr *ngFor= "let singleUser of usersData">
+        <th scope="row">{{singleUser.id}}</th>
+        <td>{{singleUser.name}}</td>
+        <td>{{singleUser.username}}</td>
+        <td>{{singleUser.email}}</td>
+        <td>{{singleUser.address["street"]}}, {{singleUser.address["suite"]}}, {{singleUser.address["city"]}},  {{singleUser.address["zipcode"]}}</td>
+        <td>{{singleUser.phone}}</td>
+        <td>{{singleUser.website}}</td>
+        <td>{{singleUser.company["name"]}}</td>
+      </tr>
+    </tbody>
+  </table>

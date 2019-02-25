@@ -1,0 +1,7 @@
+.single-post .card{
+    height: 200px;
+    -webkit-box-shadow: 0 21px 35px 0 rgba(0,0,0,.2);
+    box-shadow: 0 21px 35px 0 rgba(0,0,0,.2);
+    border: 1px solid #e6eaeb; 
+}
+
